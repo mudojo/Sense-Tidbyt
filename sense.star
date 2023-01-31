@@ -15,11 +15,11 @@ NET_ICON = base64.decode("""
 iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAABmJLR0QA/wD/AP+gvaeTAAAAhklEQVQYlYWOQQ7BUBiEv7/PQtyApqR6ptqIjZM4ie6fS7iHqLwi7wAiscBYECQi/VaTyWRmoAV7Ky+Xh7gE2I36cyZ2+wS8XBFiJZg9TfnsPJiuF3btAIz3xwJLugarV7E1vUMObJK/484MIAGos3SLuEiUEiWShqe0/jlZhFjdQd8nW3kAz/MuOlKcnn4AAAAASUVORK5CYII=
 """)
 
-POWER_URL = "http://192.168.0.100:8123/api/states/sensor.energy_production"
-USAGE_URL = "http://192.168.0.100:8123/api/states/sensor.energy_usage"
-DAILY_USAGE_URL = "http://192.168.0.100:8123/api/states/sensor.daily_usage"
-DAILY_PRODUCTION_URL = "http://192.168.0.100:8123/api/states/sensor.daily_production"
-DAILY_NET_URL = "http://192.168.0.100:8123/api/states/sensor.daily_net_production"
+POWER_URL = "http://192.168.0.XXX:8123/api/states/sensor.energy_production"
+USAGE_URL = "http://192.168.0.XXX:8123/api/states/sensor.energy_usage"
+DAILY_USAGE_URL = "http://192.168.0.XXX:8123/api/states/sensor.daily_usage"
+DAILY_PRODUCTION_URL = "http://192.168.0.XXX:8123/api/states/sensor.daily_production"
+DAILY_NET_URL = "http://192.168.0.XXX:8123/api/states/sensor.daily_net_production"
 
 HEADERS = {
 "Authorization": "Bearer PUT-HA-LONG-LIVED-ACCESS-TOKEN-HERE",
